@@ -2,8 +2,6 @@ import { BrowserRouter, Route, Router, Routes, useLocation } from 'react-router-
 import { HomePage, Navbar, SearchResults, ProductPage, Checkout, LoginPage } from './components';
 
 const App = () => {
-  const location = useLocation();
-
   return (
     <Router>
       <Navbar />
