@@ -3,7 +3,7 @@ import { HomePage, Navbar, SearchResults, ProductPage, Checkout, LoginPage } fro
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<HomePage />}></Route>
@@ -12,7 +12,7 @@ const App = () => {
         <Route path='/checkout' element={<Checkout />}></Route>
         <Route path='/login' element={<LoginPage />}></Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
